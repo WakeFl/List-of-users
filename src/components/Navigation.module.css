@@ -1,0 +1,18 @@
+.nav { 
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.activeLink {
+    color: brown;
+    text-decoration: none;
+}
+

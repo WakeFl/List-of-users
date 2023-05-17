@@ -1,0 +1,38 @@
+.container {
+    margin-top: 30px;
+}
+.tabs {
+    display: flex;
+    font-size: 20px;
+}
+
+.tabContent { 
+    text-align: left;
+    min-height: 500px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: rgb(198, 198, 198);
+}
+
+.tabItem {
+    margin-bottom: 10px;
+}
+
+.active {
+    border: 1px solid black;
+    padding: 5px 10px;
+    transform: scale(1.1);
+    z-index: 1000;
+    background-color: rgb(198, 198, 198);
+    border-bottom: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.tab {
+    border: 1px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: rgb(219, 219, 219);
+    border-bottom: none;
+}

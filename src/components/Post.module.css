@@ -1,0 +1,22 @@
+.post {
+    margin: 25px auto;
+    border-radius: 10px;
+    box-shadow: 0 0px 5px 5px rgba(126, 123, 123, 0.5);
+    padding: 30px;
+    background-color: rgb(207, 206, 203);
+    width: 500px;
+}
+
+
+.headlings {
+    color: rgb(59, 58, 58);
+    margin-bottom: 10px;
+}
+
+.finished {
+    color: green;
+}
+
+.unfinished {
+    color: red;
+}
